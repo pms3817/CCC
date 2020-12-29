@@ -3,9 +3,7 @@ import java.text.NumberFormat;
 import java.util.Arrays;
 import java.util.Scanner;
 import java.util.Comparator;
-import java.util.ArrayList;
 
-@SuppressWarnings("unused")
 public class S1 {
 
 	public int location;
@@ -59,8 +57,6 @@ public class S1 {
 	}
 
 	public static void calculateSpeed(S1[] array) {
-
-		int arrayLength = array.length;
 
 		Arrays.sort(array, Comparator.comparing(Main -> Main.time));
 
